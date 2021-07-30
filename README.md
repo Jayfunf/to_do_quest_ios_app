@@ -5,7 +5,7 @@ Simple to-do list designed like quest book in video games :)
 
 + Intro
     + to_do_list
-    + Lofidelity
+    + Lofidelity & Scenario
 + Function
     + Tech_Stack
     + Functions
@@ -45,10 +45,22 @@ Simple to-do list designed like quest book in video games :)
 
         정말 터무니없어 보입니다만, 보상과 재미 없이 아무것도 하지 않는 쓰레기인 저에게는 정말 쓸만해 보입니다.
 
-  + ## Lofidelity
+  + ## Lofidelity & Scenario
+  + ### Lofidelity
 
         로우파이 디자인
         (추가예정)
+  + ### Scenario
+      목표: 퀘스트 목록에서 퀘스트 완료 및 삭제
+
+      액터: 사용자
+      |성공 시나리오|확장시나리오|
+      |---------|---------|
+      |1. 메인 페이지에서 퀘스트 목록을 클릭한다.|X|
+      |2a. 퀘스트 목록의 체크버튼을 클릭하여 퀘스트를 완료한다.|X|
+      |2b. 퀘스트 목록의 엑스버튼을 클릭하여 퀘스트를 포기한다.|X|
+      |3. 완료/삭제를 진행하겠냐는 확인창에 확인을 클릭한다.|X|
+
 
 + # Function
         ...
