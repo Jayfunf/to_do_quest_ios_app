@@ -200,7 +200,7 @@ Simple to-do list designed like quest book in video games :)
 
       ![image](lofi/lofi_3.1.jpeg)
       
-+ # Function
++ # Functions
         ...
   + ## Tech_Stack
 
@@ -228,7 +228,7 @@ Simple to-do list designed like quest book in video games :)
 
     하지만 최대한 버무려 많은 기술들을 사용해 보고자 하는 욕심이 들어서 포기는 못하겠습니다. ;)
 
-  + ## Functions
+  + ## Function
         ...
 
 + # Prototype
