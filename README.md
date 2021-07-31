@@ -6,9 +6,9 @@ Simple to-do list designed like quest book in video games :)
 + Intro
     + to_do_list
     + Lofidelity & Scenario
-+ Function
++ Functions
     + Tech_Stack
-    + Functions
+    + Function
 + Prototype
 + End
 
