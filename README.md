@@ -168,7 +168,9 @@ Simple to-do list designed like quest book in video games :)
       |3. 앱의 버전을 표시하며, 개발자 연락 버튼을 표시한다.|X|
 
   + ### Lofidelity
-        (추가 예정)
+      1.1.
+      
+      ![image](lofi/lofi_1.1.jpeg)
       
 + # Function
         ...
