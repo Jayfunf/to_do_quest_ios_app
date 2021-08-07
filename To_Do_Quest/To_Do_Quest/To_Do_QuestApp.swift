@@ -11,7 +11,7 @@ import SwiftUI
 struct To_Do_QuestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView() //contentView.swift를 불러와 시작, App이라는 프토로콜속에 동작하는 앱.
         }
     }
 }
