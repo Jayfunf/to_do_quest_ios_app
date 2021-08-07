@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,10 @@
 		8616188B26AFF3F400DE417A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8616188A26AFF3F400DE417A /* ContentView.swift */; };
 		8616188D26AFF3F500DE417A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8616188C26AFF3F500DE417A /* Assets.xcassets */; };
 		8616189026AFF3F500DE417A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8616188F26AFF3F500DE417A /* Preview Assets.xcassets */; };
+		864BAD1426BEA3D900137798 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864BAD1326BEA3D900137798 /* List.swift */; };
+		864BAD1626BEA40500137798 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864BAD1526BEA40500137798 /* Setting.swift */; };
+		864BAD1926BEA41F00137798 /* NPC_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864BAD1826BEA41F00137798 /* NPC_List.swift */; };
+		864BAD1B26BEA42E00137798 /* NPC_Online.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864BAD1A26BEA42E00137798 /* NPC_Online.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		8616188C26AFF3F500DE417A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8616188F26AFF3F500DE417A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8616189126AFF3F500DE417A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		864BAD1326BEA3D900137798 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		864BAD1526BEA40500137798 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		864BAD1826BEA41F00137798 /* NPC_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPC_List.swift; sourceTree = "<group>"; };
+		864BAD1A26BEA42E00137798 /* NPC_Online.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPC_Online.swift; sourceTree = "<group>"; };
 		C5E98B3442B1E7D3E0AD7BBC /* Pods-To_Do_Quest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-To_Do_Quest.debug.xcconfig"; path = "Target Support Files/Pods-To_Do_Quest/Pods-To_Do_Quest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,7 +52,6 @@
 				C5E98B3442B1E7D3E0AD7BBC /* Pods-To_Do_Quest.debug.xcconfig */,
 				460BE291EBF828D84A1FABE0 /* Pods-To_Do_Quest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -77,8 +84,11 @@
 		8616188726AFF3F400DE417A /* To_Do_Quest */ = {
 			isa = PBXGroup;
 			children = (
-				8616188826AFF3F400DE417A /* To_Do_QuestApp.swift */,
+				864BAD1726BEA40900137798 /* NPC */,
 				8616188A26AFF3F400DE417A /* ContentView.swift */,
+				8616188826AFF3F400DE417A /* To_Do_QuestApp.swift */,
+				864BAD1326BEA3D900137798 /* List.swift */,
+				864BAD1526BEA40500137798 /* Setting.swift */,
 				8616188C26AFF3F500DE417A /* Assets.xcassets */,
 				8616189126AFF3F500DE417A /* Info.plist */,
 				8616188E26AFF3F500DE417A /* Preview Content */,
@@ -92,6 +102,15 @@
 				8616188F26AFF3F500DE417A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		864BAD1726BEA40900137798 /* NPC */ = {
+			isa = PBXGroup;
+			children = (
+				864BAD1826BEA41F00137798 /* NPC_List.swift */,
+				864BAD1A26BEA42E00137798 /* NPC_Online.swift */,
+			);
+			path = NPC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,8 +226,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				864BAD1B26BEA42E00137798 /* NPC_Online.swift in Sources */,
 				8616188B26AFF3F400DE417A /* ContentView.swift in Sources */,
 				8616188926AFF3F400DE417A /* To_Do_QuestApp.swift in Sources */,
+				864BAD1926BEA41F00137798 /* NPC_List.swift in Sources */,
+				864BAD1626BEA40500137798 /* Setting.swift in Sources */,
+				864BAD1426BEA3D900137798 /* List.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
